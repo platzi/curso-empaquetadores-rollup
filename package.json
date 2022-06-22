@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "web-dev-server --config web-dev-server.config.js",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@rollup/plugin-html": "^0.2.4",
     "@rollup/plugin-image": "^2.1.1",
+    "@web/dev-server": "^0.1.32",
     "rollup": "^2.75.7",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-css-only": "^3.1.0"
